@@ -5,6 +5,23 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+#browse {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: saddlebrown;
+    color: white;
+    cursor: pointer;
+}
+
+#container {
+    margin-top: 10px;
+    width: 60%;
+    font-size: 22px;
+    margin: auto;
 }
