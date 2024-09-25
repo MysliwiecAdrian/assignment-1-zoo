@@ -19,6 +19,17 @@ img {
     cursor: pointer;
 }
 
+#homepage {
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(122, 136, 172);
+    color: white;
+    cursor: pointer;
+}
+
 #container {
     margin-top: 10px;
     width: 60%;
