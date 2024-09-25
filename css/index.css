@@ -1,20 +1,43 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  background-color: rgb(115, 141, 112);
   text-align: center;
 }
 
 #exhibit {
   height: 50vh;
   margin-top: 30px;
-  border: 1px solid black;
   display: flex;
   justify-content: space-evenly;
 }
 
-
+.animal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+}
 
 .animals {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  box-shadow: 0px 10px 30px #000000fc;
+}
+
+.link {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(128, 111, 69);
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+  box-shadow: 0px 1px 3px #000000fc;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
 }
